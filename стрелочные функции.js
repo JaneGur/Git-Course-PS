@@ -1,10 +1,3 @@
-function toPower (num,power) {
-    const res = num ** power;
-     return res;
-}
+const toPowerArrow = (num,power) => num ** power;
 
-console.log (toPower(2,3))
-
-const toPowerArrow = res => num ** power;
-
-alert (toPowerArrow(4,5));
+console.log (toPowerArrow(4,5));
